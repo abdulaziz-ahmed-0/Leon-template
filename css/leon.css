@@ -385,7 +385,7 @@ html {
     line-height: 1.8;
 }
 
-.about .container p::after {
+.about .container .text::after {
     content: '';
     background-color: var(--mainColor);
     width: 50%;
@@ -450,4 +450,5 @@ html {
 .footer .container p span {
     color: var(--mainColor);
     font-weight: bold;
+
 }
